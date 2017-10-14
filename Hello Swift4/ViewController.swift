@@ -14,6 +14,23 @@ class ViewController: UIViewController {
     var nameString: String = ""
     
     
+    // View ของ Label
+    @IBOutlet weak var showLabel: UILabel!
+    
+    // การรับค่า มาคำนวณ
+    @IBOutlet weak var nameTextField: UITextField!
+    
+    // Action
+    @IBAction func changeNameButton(_ sender: Any) {
+        
+       // ตรวจสอบการคลิก
+       print("Click OK Success")
+        
+        
+    } //changeNameButton
+    
+    
+    
     
     
     
