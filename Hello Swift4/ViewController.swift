@@ -26,6 +26,12 @@ class ViewController: UIViewController {
        // ตรวจสอบการคลิก
        print("Click OK Success")
         
+       //  Get value form TextField
+        nameString = nameTextField.text!
+        print("Name ==> \(nameString)")
+        
+        //Display on Label
+        showLabel.text = nameString
         
     } //changeNameButton
     
